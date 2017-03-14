@@ -5,7 +5,7 @@
   "keywords": ["xplenty", "ssh", "tunnel", "private-space", "postgresql"],
   "website": "https://www.xplenty.com/",
   "stack": "cedar-14",
-  "logo": "https://www.xplenty.com/assets/xplenty-logostamp.svg"
+  "logo": "https://www.xplenty.com/assets/xplenty-logostamp.svg",
   "buildpacks": [
     {
       "url": "https://github.com/xplenty/heroku-buildpack-autossh"
