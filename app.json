@@ -16,8 +16,7 @@
   ],
   "formation": {
     "web": {
-      "quantity": 1,
-      "size": "private-s"
+      "quantity": 1
     }
   },
   "env": {

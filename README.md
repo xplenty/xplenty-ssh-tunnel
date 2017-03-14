@@ -3,7 +3,7 @@ A tiny application to initiate a SSH tunnel in order to allow Xplenty to connect
 
 This application is setting up a persistant SSH tunnel from a Heroku server to Xplenty for tunnel based connections. This is mostly usefull for private spaced data stores hosted such as Heroku PostgreSQL which are not accessible from outside the private space.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xplenty/xplenty-ssh-tunnel)
 
 ## Usage
 
