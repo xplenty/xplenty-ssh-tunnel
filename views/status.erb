@@ -1,0 +1,20 @@
+<h2>Xplenty SSH Tunnel Status</h2>
+<p>Find the latest information on your SSH tunnel availability below.</p>
+<hr>
+<div class="panel panel-default">
+  <div class="panel-heading">
+  <h3 class="panel-title">Status <small class="pull-right">Refreshed <%= Time.now.strftime("%B %d, %Y at %I:%M%P %Z") %></small></h3>
+  </div>
+  <div class="panel-body">
+    <h4 class="<%= @status_class %>">Your tunnel is <%= @status %></h4>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+  <h3 class="panel-title">Logs</h3>
+  </div>
+  <div class="panel-body">
+    <pre><%= @command %></pre>
+    <pre><%= @logs %></pre>
+  </div>
+</div>

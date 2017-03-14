@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <title><%= @title %></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <%= yield %>
+      </div>
+      <div class="footer">
+        <p class="legal">&copy; <%= Time.now.strftime("%Y") %> Xplenty, Inc.</p>
+      </div>
+    </div>
+  </body>
+</html>

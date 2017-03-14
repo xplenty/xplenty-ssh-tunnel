@@ -1,0 +1,57 @@
+{
+  "name": "Xplenty SSH tunnel",
+  "description": "A tiny application to initiate a SSH tunnel in order to allow Xplenty to connect to your database.",
+  "repository": "https://github.com/xplenty/xplenty-ssh-tunnel",
+  "keywords": ["xplenty", "ssh", "tunnel", "private-space", "postgresql"],
+  "website": "https://www.xplenty.com/",
+  "stack": "cedar-14",
+  "logo": "https://www.xplenty.com/assets/xplenty-logostamp.svg"
+  "buildpacks": [
+    {
+      "url": "https://github.com/xplenty/heroku-buildpack-autossh"
+    },
+    {
+      "url": "heroku/ruby"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "private-s"
+    }
+  },
+  "env": {
+    "XPLENTY_SSH_TUNNEL_CONNECTION_PORT": {
+      "description": "The unique port assigned by Xplenty after creating your Xplenty connection",
+      "value": "<xplenty's tunnel connection port here>"
+    },
+    "XPLENTY_SSH_TUNNEL_PORT": {
+      "description": "The port of Xplenty's server",
+      "value": "50683"
+    },
+    "XPLENTY_SSH_TUNNEL_HOST": {
+      "description": "The host name of Xplenty's server",
+      "value": "<xplenty's server host name here>"
+    },
+    "XPLENTY_SSH_TUNNEL_USER_NAME": {
+      "description": "The user name to be used in order to connect to Xplenty's server",
+      "value": "sshtunnel"
+    },
+    "XPLENTY_SSH_TUNNEL_PRIVATE_KEY": {
+      "description": "Your private key to be used in order to connect to Xplenty's server",
+      "value": "<your private key here>"
+    },
+    "XPLENTY_SSH_TUNNEL_PUBLIC_KEY": {
+      "description": "Your public key to be used in order to connect to Xplenty's server",
+      "value": "<your public key here>"
+    },
+    "XPLENTY_SSH_TUNNEL_DATABASE_PORT": {
+      "description": "The port of the database to connect to",
+      "value": "<your database port here>"
+    },
+    "XPLENTY_SSH_TUNNEL_DATABASE_HOST": {
+      "description": "The host name of the database to connect to",
+      "value": "<your database host here>"
+    }
+  }
+}

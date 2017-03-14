@@ -1,0 +1,9 @@
+.ruby-version
+.DS_Store
+# Logs
+logs
+*.log
+
+.env
+.env.*
+.idea/
