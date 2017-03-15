@@ -29,13 +29,13 @@ The following application settings are required in order for the tunnel to be se
 $ APP_NAME=<your app name>
 
 $ heroku config:set XPLENTY_SSH_TUNNEL_CONNECTION_PORT="<xplenty's tunnel connection port here>" -a ${APP_NAME}
-$ heroku config:set XPLENTY_SSH_TUNNEL_PORT="50683" -a ${APP_NAME}
 $ heroku config:set XPLENTY_SSH_TUNNEL_HOST="<xplenty's server host name here>" -a ${APP_NAME}
+$ heroku config:set XPLENTY_SSH_TUNNEL_PORT="50683" -a ${APP_NAME}
 $ heroku config:set XPLENTY_SSH_TUNNEL_USER_NAME="sshtunnel" -a ${APP_NAME}
 $ heroku config:set XPLENTY_SSH_TUNNEL_PRIVATE_KEY="`cat $HOME/.ssh/id_rsa`" -a ${APP_NAME}
 $ heroku config:set XPLENTY_SSH_TUNNEL_PUBLIC_KEY="`cat $HOME/.ssh/id_rsa.pub`" -a ${APP_NAME}
-$ heroku config:set XPLENTY_SSH_TUNNEL_DATABASE_PORT="<your database host here>" -a ${APP_NAME}
-$ heroku config:set XPLENTY_SSH_TUNNEL_DATABASE_HOST="<your database port here>" -a ${APP_NAME}
+$ heroku config:set XPLENTY_SSH_TUNNEL_DATABASE_HOST="<your database host here>" -a ${APP_NAME}
+$ heroku config:set XPLENTY_SSH_TUNNEL_DATABASE_PORT="<your database port here>" -a ${APP_NAME}
 ```
 
 ## Monitoring SSH Tunnel Health

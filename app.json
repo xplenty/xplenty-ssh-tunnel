@@ -24,13 +24,13 @@
       "description": "The unique port assigned by Xplenty after creating your Xplenty connection",
       "value": "<xplenty's tunnel connection port here>"
     },
-    "XPLENTY_SSH_TUNNEL_PORT": {
-      "description": "The port of Xplenty's server",
-      "value": "50683"
-    },
     "XPLENTY_SSH_TUNNEL_HOST": {
       "description": "The host name of Xplenty's server",
       "value": "<xplenty's server host name here>"
+    },
+    "XPLENTY_SSH_TUNNEL_PORT": {
+      "description": "The port of Xplenty's server",
+      "value": "50683"
     },
     "XPLENTY_SSH_TUNNEL_USER_NAME": {
       "description": "The user name to be used in order to connect to Xplenty's server",
@@ -44,13 +44,13 @@
       "description": "Your public key to be used in order to connect to Xplenty's server",
       "value": "<your public key here>"
     },
-    "XPLENTY_SSH_TUNNEL_DATABASE_PORT": {
-      "description": "The port of the database to connect to",
-      "value": "<your database port here>"
-    },
     "XPLENTY_SSH_TUNNEL_DATABASE_HOST": {
       "description": "The host name of the database to connect to",
       "value": "<your database host here>"
+    },
+    "XPLENTY_SSH_TUNNEL_DATABASE_PORT": {
+      "description": "The port of the database to connect to",
+      "value": "<your database port here>"
     }
   }
 }
