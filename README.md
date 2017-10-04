@@ -21,6 +21,8 @@ When configuring SSH tunnels for connecting to databases, authentication is perf
 
 We assume a RSA SSH key pair is already present under `$HOME/.ssh/id_rsa` and the public key [was already added to your Xplenty user settings](http://community.xplenty.com/knowledgebase/articles/468251). If you don't have an existing public and private key pair, or don't wish to use any that are available to connect to Xplenty, then [generate a new SSH key](http://community.xplenty.com/knowledgebase/articles/468251).
 
+**Note** Since the tunneling process is having no user interaction, your key pair must be set with an empty passphrase or otherwise the tunneling will fail.
+
 ### Environment Variables
 
 The following application settings are required in order for the tunnel to be set up:
