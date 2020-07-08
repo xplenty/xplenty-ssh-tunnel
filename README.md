@@ -19,7 +19,7 @@ Note: The SSH tunnel might be unavailable during [Dyno automatic restart](https:
 
 When configuring SSH tunnels for connecting to databases, authentication is performed using the SSH server. To authenticate using key based authentication, a key pair needs to be generated and then added to your user settings in Xplenty.
 
-We assume a RSA SSH key pair is already present under `$HOME/.ssh/id_rsa` and the public key [was already added to your Xplenty user settings](http://community.xplenty.com/knowledgebase/articles/468251). If you don't have an existing public and private key pair, or don't wish to use any that are available to connect to Xplenty, then [generate a new SSH key](http://community.xplenty.com/knowledgebase/articles/468251).
+We assume a RSA SSH key pair is already present under `$HOME/.ssh/id_rsa` and the public key [was already added to your Xplenty user settings](https://www.xplenty.com/docs/managing-your-ssh-keys/). If you don't have an existing public and private key pair, or don't wish to use any that are available to connect to Xplenty, then [generate a new SSH key](https://www.xplenty.com/docs/managing-your-ssh-keys/).
 
 **Note** Since the tunneling process is having no user interaction, your key pair must be set with an empty passphrase or otherwise the tunneling will fail.
 
