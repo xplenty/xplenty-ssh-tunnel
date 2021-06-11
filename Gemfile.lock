@@ -18,11 +18,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rack (>= 1.6.12)
+  rack (>= 2.2.3)
   sinatra
 
 RUBY VERSION
-   ruby 2.3.8p459
+   ruby 2.7.2p137
 
 BUNDLED WITH
    1.17.3
