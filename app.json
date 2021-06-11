@@ -4,7 +4,7 @@
   "repository": "https://github.com/xplenty/xplenty-ssh-tunnel",
   "keywords": ["xplenty", "ssh", "tunnel", "private-space", "postgresql", "data integration", "xplenty ssh tunnel", "xplenty tunnel"],
   "website": "https://www.xplenty.com/",
-  "stack": "heroku-16",
+  "stack": "heroku-20",
   "logo": "https://res.cloudinary.com/hdxhd6yxt/image/upload/v1508666440/xplenty-logo-d3b0b510e49c83a97d732aaa20497ddae4bc685b61d97820da75802420d5f67c_cyw2r2.svg",
   "buildpacks": [
     {
